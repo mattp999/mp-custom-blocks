@@ -1,0 +1,10 @@
+.taxonomylist_options_to_show_or_hide {
+	transition: 0.3s ease-in-out;
+	margin-bottom: 24px;
+	/* opacity: 1; */
+	/* height: auto; */
+}
+.mp_hide {
+	height: 0;
+	opacity: 0;
+}

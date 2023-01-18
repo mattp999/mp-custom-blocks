@@ -1,0 +1,135 @@
+/**
+ * Note that these styles are loaded *before* editor styles, so that
+ * editor-specific styles using the same selectors will take precedence.
+ */
+ /******************************* MUSIC BOX *******************************/
+.wp-block-gutenberg-musicbox-my-musicbox {
+	text-align: center;
+	max-width: 400px;
+	margin: 20px;
+	background: #222;
+	box-shadow: 1px 1px 4px rgba(0,0,0,.5);
+	display: inline-block;
+}
+.wp-block-gutenberg-musicbox-my-musicbox .album-cover {
+	min-height: 100px;
+}
+.wp-block-gutenberg-musicbox-my-musicbox .album-cover button {
+	margin-top: 30px;
+}
+.wp-block-gutenberg-musicbox-my-musicbox .album-cover button.image-button {
+	margin: 0 auto;
+	padding: 0;
+	display: block;
+}
+.wp-block-gutenberg-musicbox-my-musicbox .album-cover img {
+	display: block;
+	z-index: 1;
+	position: relative;
+	margin: 0 auto;
+}
+.wp-block-gutenberg-musicbox-my-musicbox h2 {
+	font-size: 1.5em;
+	color: #f9f9f9;
+}
+.releaseyear {
+	color: #f9f9f9;
+	font-size: 1.3em;
+}
+.album-links {
+	max-width: 230px;
+	margin: 20px auto;
+	position: relative;
+	background: #dfb355;
+	cursor:pointer;
+}
+.album-links h3 {
+	margin: 12px 8px 8px 8px;
+	display: inline-block;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.album-links h3::after {
+	display: inline-block;
+	vertical-align: top;
+	font-family: 'Font Awesome 5 Free';
+	font-size: 1.4em;
+	content: '\f107';
+	line-height: 10px;
+	height: 100%;
+	margin-left: 30px;
+	margin-top: 5px;
+}
+.wp-block-gutenberg-musicbox-my-musicbox ul.streamingservices {
+	padding-left: 1.5em !important; /* Needs fix in Gutenberg. */
+	visibility: hidden;
+	position: absolute;
+	margin: 0;
+	text-transform: uppercase;
+	width: 100%;
+	background: #111;
+	opacity:0;
+	overflow: hidden;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+.album-links:hover {
+	background: #111;
+}
+.album-links:hover h3{
+	color: #dfb355;
+}
+.album-links:hover h3::after {
+	content: '\f106';
+}
+.album-links:hover ul.streamingservices {
+	visibility: visible;
+	opacity: 1;
+	z-index: 9;
+}
+.album-links ul.streamingservices a {
+	color: #f9f9f9;
+	margin: 5px auto;
+	display: block;
+}
+.album-links ul.streamingservices a:hover{
+	color: #dfb355;
+}
+.wp-block-gutenberg-musicbox-my-musicbox:after { 
+	content:""; 
+	clear:both; 
+	display: table; 
+}
+/**************** Background image ***************/
+.wp-block-gutenberg-bgimage-my-bgimage{
+	position: relative;
+	background-size: cover;
+	background-position: 50%;
+	/* height: 100%; */
+	/* width: 100%; */
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+	overflow: hidden;
+}
+.wp-block-gutenberg-bgimage-my-bgimage .mpoverlay {
+	margin: 0 auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 2;
+}
+.wp-block-gutenberg-bgimage-my-bgimage .mpbgcontent{
+	position: relative;
+	margin: 0 auto;
+	z-index: 3;
+}
+@media only screen and (min-width:769px){
+	.parallax-true{
+		background-attachment:fixed;
+	}
+}

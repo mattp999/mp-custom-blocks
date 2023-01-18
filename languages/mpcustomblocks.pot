@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-18 14:18+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: latestposts/index.php:182 portfolio/index.php:301
+msgid "Full Size"
+msgstr ""
+
+#: latestposts/index.php:289
+msgid "Load more"
+msgstr ""
+
+#: latestposts/index.php:290 portfolio/index.php:371
+msgid "Loading..."
+msgstr ""
+
+#: portfolio/index.php:69
+msgid "All"
+msgstr ""
+
+#: portfolio/index.php:122 portfolio/index.php:221 portfolio/index.php:224
+msgid "See all our"
+msgstr ""
+
+#: portfolio/index.php:221
+msgid "in"
+msgstr ""

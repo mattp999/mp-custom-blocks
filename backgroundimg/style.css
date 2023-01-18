@@ -1,0 +1,37 @@
+/**
+ * Note that these styles are loaded *before* editor styles, so that
+ * editor-specific styles using the same selectors will take precedence.
+ */
+/**************** Background image ***************/
+.wp-block-gutenberg-bgimage-my-bgimage{
+	position: relative;
+	background-size: cover;
+	background-position: 50%;
+	/* height: 100%; */
+	/* width: 100%; */
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+	overflow: hidden;
+}
+.wp-block-gutenberg-bgimage-my-bgimage .mpoverlay {
+	margin: 0 auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 2;
+}
+.wp-block-gutenberg-bgimage-my-bgimage .mpbgcontent{
+	position: relative;
+	margin: 0 auto;
+	z-index: 3;
+}
+@media only screen and (min-width:769px){
+	.parallax-true{
+		background-attachment:fixed;
+	}
+}

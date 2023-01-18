@@ -1,0 +1,108 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "gutenberg-portfolio/my-portfolio",
+    "title": "Portfolio",
+    "category": "mpcustomblocks",
+    "parent": [ "core/group" ],
+    "icon": "grid-view",
+    "description": "Show a loop of all types of posts with many options.",
+    "keywords": [ "portfolio", "post", "loop" ],
+    "version": "1.1.0",
+    "textdomain": "mpcustomblocks",
+    "attributes": {
+		"alignment": {
+			"type": "string",
+			"default": "left",
+		},
+		"postType": {
+			"type": "string",
+			"default": "post",
+		},
+		"templateSelected": {
+			"type": "string",
+			"default": "default-template.php",
+		},
+		"showTaxonomiesList": {
+			"type": "boolean",
+			"default": false,
+		},
+		"taxonomySelected":{
+			"type": "string",
+			"default": "Tous",
+		},	
+		"order":{
+           "type": "string",
+            "default": "desc",
+		},
+        "orderBy":{
+           "type": "string",
+            "default": "date",
+           },
+		"postsToShow":{
+			"type": "number",
+			"default": 5,
+		},
+		"showDate": {
+			"type": "boolean",
+			"default": true,
+		},
+		"showTitle": {
+			"type": "boolean",
+			"default": true,
+		},
+		"titleTag": {
+            "type": "string",
+            "default": "h3",
+        },
+		"showCategoriesOnPost": {
+			"type": "boolean",
+			"default": false,
+		},
+		"showFeaturedImg": {
+			"type": "boolean",
+			"default": true,
+		},
+		"imageSize": {
+			"type": "string",
+			"default": "large",
+		},
+		"showContent": {
+			"type": "boolean",
+			"default": false,
+		},
+		"contentLength": {
+			"type": "number",
+			"default": 200,
+		},
+		"showReadMore": {
+			"type": "boolean",
+			"default": true,
+		},
+		"textReadMore": {
+			"type": "string",
+			"default": "Read more",
+		},
+		"showLoadMore": {
+			"type": "boolean",
+			"default": false,
+		},
+		"textLoadMore": {
+			"type": "string",
+			"default": "Load more",
+		},
+		"textLoading": {
+			"type": "string",
+			"default": "Loading...",
+		},
+		"colorAnimation": {
+			"type": "string",
+			"default": "#000000",
+		}
+    },
+    "editorScript": "mp_portfolio_block",
+    "viewScript": "mp_portfolio_front",
+    "editorStyle": "mp_portfolio_editor_style",
+    "style": "mp_portfolio_style",
+    "render": "file:index.php"
+}

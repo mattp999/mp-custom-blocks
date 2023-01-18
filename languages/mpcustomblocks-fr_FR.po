@@ -1,0 +1,39 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: MP Custom Blocks\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-15 18:02+0200\n"
+"PO-Revision-Date: 2020-05-15 16:36+0000\n"
+"Last-Translator: \n"
+"Language-Team: Français\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.4; wp-5.3.3"
+
+#: latestposts/index.php:182 portfolio/index.php:286
+msgid "Full Size"
+msgstr "Image originale"
+
+#: latestposts/index.php:289
+msgid "Load more"
+msgstr "Charger plus"
+
+#: latestposts/index.php:290
+msgid "Loading..."
+msgstr "Chargement..."
+
+#: portfolio/index.php:68
+msgid "All"
+msgstr "Tous"
+
+#: portfolio/index.php:356
+msgid "Loading..."
+msgstr "Chargement..."

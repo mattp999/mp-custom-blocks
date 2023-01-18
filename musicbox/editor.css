@@ -1,0 +1,14 @@
+/******** MUSIC BOX *******/
+.wp-block-gutenberg-musicbox-my-musicbox .editor-rich-text ul.streamingservices {
+	visibility: visible;
+	position: initial;
+	opacity:1;
+}
+.wp-block-gutenberg-musicbox-my-musicbox h2,
+.wp-block-gutenberg-musicbox-my-musicbox h3,
+.wp-block-gutenberg-musicbox-my-musicbox .rich-text {
+	color: #fff!important;
+}
+.album-links h3::after {
+	display: none;
+}
